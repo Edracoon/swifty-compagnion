@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		666B1DD02AF6E37600E009FF /* EnvVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666B1DCF2AF6E37600E009FF /* EnvVariables.swift */; };
 		66B1A68C2AEE5BF0009B4E12 /* swifty_companionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1A68B2AEE5BF0009B4E12 /* swifty_companionApp.swift */; };
 		66B1A68E2AEE5BF0009B4E12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1A68D2AEE5BF0009B4E12 /* ContentView.swift */; };
 		66B1A6902AEE5BF1009B4E12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66B1A68F2AEE5BF1009B4E12 /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		666B1DCF2AF6E37600E009FF /* EnvVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvVariables.swift; sourceTree = "<group>"; };
+		666B1DD22AF6EFD700E009FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		66B1A6882AEE5BF0009B4E12 /* swifty-companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swifty-companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66B1A68B2AEE5BF0009B4E12 /* swifty_companionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swifty_companionApp.swift; sourceTree = "<group>"; };
 		66B1A68D2AEE5BF0009B4E12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,9 +54,11 @@
 		66B1A68A2AEE5BF0009B4E12 /* swifty-companion */ = {
 			isa = PBXGroup;
 			children = (
+				666B1DD22AF6EFD700E009FF /* Info.plist */,
+				66B1A68F2AEE5BF1009B4E12 /* Assets.xcassets */,
 				66B1A6992AEE5C62009B4E12 /* View */,
 				66B1A68B2AEE5BF0009B4E12 /* swifty_companionApp.swift */,
-				66B1A68F2AEE5BF1009B4E12 /* Assets.xcassets */,
+				666B1DCF2AF6E37600E009FF /* EnvVariables.swift */,
 				66B1A6912AEE5BF1009B4E12 /* Preview Content */,
 			);
 			path = "swifty-companion";
@@ -146,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66B1A68E2AEE5BF0009B4E12 /* ContentView.swift in Sources */,
+				666B1DD02AF6E37600E009FF /* EnvVariables.swift in Sources */,
 				66B1A68C2AEE5BF0009B4E12 /* swifty_companionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +284,7 @@
 				DEVELOPMENT_TEAM = JKC28D82FH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "swifty-companion/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -307,6 +314,7 @@
 				DEVELOPMENT_TEAM = JKC28D82FH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "swifty-companion/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

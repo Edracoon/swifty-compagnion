@@ -8,15 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    func test() -> Void {
+        print(API42.uid ?? "null")
+        print(API42.secret ?? "null")
+    }
+    
     var body: some View {
-        VStack {
+        test()
+        return VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
         }
         .padding()
-    } 
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {
